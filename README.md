@@ -1,7 +1,7 @@
 ## Tutorial for using VSCode with Docker for Deep Learning Research
 
 ### 
-This tutorial takes [RTFNet](https://github.com/yuxiangsun/RTFNet) as an example. We assume that you have successfully clone the RTFNet repo and built the RTFNet docker image `docker_image_rtfnet` by following the instructions in the repo. You need to know the basic knowledge about docker.
+This tutorial takes [RTFNet](https://github.com/yuxiangsun/RTFNet) as an example. We assume that you have successfully clone the RTFNet repo and built the RTFNet docker image `docker_image_rtfnet` by following the instructions in the RTFNet repo. You need to know the basic knowledge about docker.
 
 ### Step 1: 
 Open VSCode and click `File->New Window->Open Folder` to open the `RTFNet` folder on your computer. Then, click the Extensions. Search and install extensions `Docker`, `Docker Compose` and `Remote-Containers`.
