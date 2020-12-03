@@ -29,7 +29,7 @@ Click the left bottom square button again, then follow the below figures to reop
 <img src="Steps/Step_09.png" width="1280px"/>
 
 ### Step-5: 
-Finally, install the `Pylance` and `Python` extensions. The extensions will be installed in this container. If you do not install the two extensions, you may not be able to use code auto-completion, highlighting, etc. Then, you can write codes and run programs in the docker container using VSCode.
+Finally, install the `Pylance` and `Python` extensions. The extensions will be installed in this container. If you do not install the two extensions, you may not be able to use code auto-completion, highlighting, etc. After that, you can write codes and run programs in the docker container using VSCode. You can terminate a process by `Ctrl+C` in the VSCode TERMINAL.
 
 <img src="Steps/Step_10.png" width="1280px"/>
 
