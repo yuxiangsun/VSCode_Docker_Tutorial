@@ -24,12 +24,12 @@ Overwrite the `devcontainer.json` and `docker-compose.yml` files using the ones 
 <img src="Steps/Step_08.png" width="1280px"/>
 
 ### Step 4: 
-Click the left bottom square button again, then follow the below figures to reopen the project in a docker container that will be built by VSCode automatically.
+Click the left bottom square button again, then follow the below figures to reopen the project in a docker container that will be built by VSCode automatically. Then, the RTFNet folder will be automatically mounted on the `/workspace` folder in the container. 
 
 <img src="Steps/Step_09.png" width="1280px"/>
 
 ### Step-5: 
-Finally, install the `Pylance` and `Python` extensions. The extensions will be installed in this container. If you do not install the two extensions, you may not be able to use code auto-completion, highlighting, etc.
+Finally, install the `Pylance` and `Python` extensions. The extensions will be installed in this container. If you do not install the two extensions, you may not be able to use code auto-completion, highlighting, etc. Then, you can write codes and run programs in the docker container using VSCode.
 
 <img src="Steps/Step_10.png" width="1280px"/>
 
