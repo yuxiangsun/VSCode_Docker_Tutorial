@@ -17,7 +17,7 @@ Click the left bottom square button, then follow the below figures.
 <img src="Steps/Step_05.png" width="1280px"/>
 
 ### Step 3: 
-Overwirte the `devcontainer.json` and `docker-compose.yml` files using the ones given in this repo. Then delete the `Dockerfile`, because you have already built the docker image using a Dockerfile. You may need to add the volumn mapping to let docker container to access some folder in your local computer. Please also modify the devices list according to the number of your GPU cards.
+Overwrite the `devcontainer.json` and `docker-compose.yml` files using the ones given in this repo. Then delete the `Dockerfile`, because you have already built the docker image using a Dockerfile. You may need to add the volumn mapping to let docker container to access some folder in your local computer. Please also modify the devices list according to the number of your GPU cards.
 
 <img src="Steps/Step_06.png" width="1280px"/>
 <img src="Steps/Step_07.png" width="1280px"/>
