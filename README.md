@@ -3,27 +3,27 @@
 ### 
 This tutorial takes [RTFNet](https://github.com/yuxiangsun/RTFNet) as an example. We assume that you have successfully clone the RTFNet repo and built the RTFNet docker image `docker_image_rtfnet`.
 
-### Step-1: 
+### Step 1: 
 Open VSCode and click `File->New Window->Open Folder` to open the `RTFNet` folder on your computer. Then, click the Extensions. Search and install extensions `Docker`, `Docker Compose` and `Remote-Containers`.
 
 <img src="Steps/Step_01.png" width="1280px"/>
 <img src="Steps/Step_02.png" width="1280px"/>
 
-### Step-2: 
+### Step 2: 
 Click the left bottom square button, then follow the below figures.
 
 <img src="Steps/Step_03.png" width="1280px"/>
 <img src="Steps/Step_04.png" width="1280px"/>
 <img src="Steps/Step_05.png" width="1280px"/>
 
-### Step-3: 
+### Step 3: 
 Overwirte the `devcontainer.json` and `docker-compose.yml` files using the ones given in this repo. Then delete the `Dockerfile`, because you have already built the docker image using a Dockerfile. You may need to add the volumn mapping to let docker container to access some folder in your local computer. Please also modify the devices list according to the number of your GPU cards.
 
 <img src="Steps/Step_06.png" width="1280px"/>
 <img src="Steps/Step_07.png" width="1280px"/>
 <img src="Steps/Step_08.png" width="1280px"/>
 
-### Step-4: 
+### Step 4: 
 Click the left bottom square button again, then follow the below figures to reopen the project in a docker container that will be built by VSCode automatically.
 
 <img src="Steps/Step_09.png" width="1280px"/>
