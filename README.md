@@ -29,7 +29,7 @@ Click the left bottom square button again, then follow the below figures to reop
 <img src="Steps/Step_09.png" width="1280px"/>
 
 ### Step-5: 
-Finally, install the `Pylance` and `Python` extensions. The extensions will be installed in this container. If you do not install the two extensions, you may not be able to use code auto-completion, highlighting, etc. After that, you can write codes in the docker container using VSCode. You can run a program using command like `python3 test.py` in the VSCode TERMINAL, and terminate the program using `Ctrl+C`.
+Finally, install the `Pylance` and `Python` extensions. The extensions will be installed in this container. If you do not install the two extensions, you may not be able to use code auto-completion, highlighting, etc. After that, you can write codes in the docker container using VSCode. You can run a program using command like `python3 train.py` in the VSCode TERMINAL, and terminate the program using `Ctrl+C`. You can also click the `+` button to add one more terminal, then in this terminal you can start the tensorboard program using: `tensorboard --bind_all --logdir=./runs/tensorboard_log`. Then, go to the website `http://localhost:1234` in your browser to watch the tensorboard log data.
 
 <img src="Steps/Step_10.png" width="1280px"/>
 <img src="Steps/Step_11.png" width="1280px"/>
