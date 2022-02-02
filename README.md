@@ -38,4 +38,4 @@ Finally, install the `Pylance` and `Python` extensions. The extensions will be i
 
 ### Please feel free to contact me if you have any problems. 
 
-sun.yuxiang@outlook.com, https://yuxiangsun.github.io/
+sun.yuxiang@outlook.com
