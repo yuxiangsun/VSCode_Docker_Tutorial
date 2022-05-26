@@ -3,7 +3,7 @@
 ### 
 This tutorial takes [RTFNet](https://github.com/yuxiangsun/RTFNet) as an example. We assume that you have successfully clone the RTFNet repo and built the RTFNet docker image `docker_image_rtfnet` by following the instructions in the RTFNet repo. 
 
-Maker sure you have [Docker](https://docs.docker.com/engine/install/ubuntu/), [Docker Compose](https://docs.docker.com/compose/install/) and [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) installed.
+Make sure you have [Docker](https://docs.docker.com/engine/install/ubuntu/), [Docker Compose](https://docs.docker.com/compose/install/) and [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) installed.
 
 ### Step 1: 
 Open VSCode and click `File->New Window->Open Folder` to open the `RTFNet` folder on your computer. Note that using `New Window` is a good habit. If you do not new a window, the current window will be automatically closed after opening the folder. Then, click the Extensions. Search and install extensions `Docker`, `Docker Compose` and `Remote-Containers`.
